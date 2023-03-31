@@ -4,24 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c4b5ff6a-2da0-45e5-88ae-6d4369ef6c11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springsecurity/config/AuthenticationConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springsecurity/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springsecurity/dao/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springsecurity/dao/model/UserModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springsecurity/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springsecurity/service/JPAUserDetailsService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/springsecurity/service/SecurityUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/liquibase/1.0/changelog-1.0.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/liquibase/changelog-master.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+    <list default="true" id="c4b5ff6a-2da0-45e5-88ae-6d4369ef6c11" name="Changes" comment="created user table, managed userDetails by SpringSecurity">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/springsecurity/SpringSecurityApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/springsecurity/SpringSecurityApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -230,8 +214,16 @@
       <option name="presentableId" value="Default" />
       <updated>1680165539145</updated>
       <workItem from="1680165541783" duration="7089000" />
-      <workItem from="1680197422049" duration="7609000" />
+      <workItem from="1680197422049" duration="8376000" />
     </task>
+    <task id="LOCAL-00001" summary="created user table, managed userDetails by SpringSecurity">
+      <created>1680257009491</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1680257009491</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,5 +239,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="created user table, managed userDetails by SpringSecurity" />
+    <option name="LAST_COMMIT_MESSAGE" value="created user table, managed userDetails by SpringSecurity" />
   </component>
 </project>
