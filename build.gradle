@@ -11,11 +11,19 @@ repositories {
     mavenCentral()
 }
 
+//apply plugin: 'org.hibernate.orm'
+
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-web'
-    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
-    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
-    implementation 'org.springframework.security:spring-security-core:5.7.5'
+    testImplementation "org.junit.jupiter:junit-jupiter-api:$junitTestVersion"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$junitTestVersion"
+//    implementation 'org.springframework.security:spring-security-core:5.7.5'
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation "mysql:mysql-connector-java:$mysqlVersion"
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    implementation "org.liquibase:liquibase-core:$liquibaseVersion"
 }
 
 test {

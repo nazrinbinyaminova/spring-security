@@ -1,0 +1,24 @@
+databaseChangeLog:
+  - preConditions:
+      - runningAs:
+          username: root
+  - changeSet:
+      id: Spring Security
+      author: Nazrin Binyaminova
+      changes:
+        - createTable:
+            tableName: user
+            columns:
+              - column:
+                  name: id
+                  type: int
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: username
+                  type: varchar(10)
+              - column:
+                  name: password
+                  type: varchar(10)
